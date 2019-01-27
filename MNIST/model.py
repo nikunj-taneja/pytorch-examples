@@ -69,7 +69,7 @@ learning_rate = 0.01
 optimizer = optim.SGD(model.parameters(), lr = learning_rate)
 
 # Train the network
-num_epochs = 35
+num_epochs = 40
 min_valid_loss = np.Inf
 for epoch in range(num_epochs):
 	train_loss = 0.0

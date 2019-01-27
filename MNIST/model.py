@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Transform data to Tensor
-transform = transforms.transforms.ToTensor()
+transform = transforms.ToTensor()
 
 # Download and load data
 train_data = datasets.MNIST(root = './data', download = True, train = True, transform = transform)
@@ -138,6 +138,3 @@ for i in range(10):
 print('\nTest Accuracy (Overall): %2d%% (%2d/%2d)' % (
     100. * np.sum(correct_class) / np.sum(total_class),
     np.sum(correct_class), np.sum(total_class)))
-
-
-

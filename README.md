@@ -1,5 +1,5 @@
 # PyTorch Examples
-This repository is a collection of models developed by me while learning PyTorch.
+This repository is a collection of models that I developed while learning PyTorch.
 
 ## Datasets used in this repository:
 
